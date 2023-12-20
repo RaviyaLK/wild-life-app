@@ -1,0 +1,25 @@
+name: wild_life
+description: A Flutter Project About Wild Life.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: 6.1.0
+  go_router: 12.0.1
+  collection: 1.17.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/icons/
